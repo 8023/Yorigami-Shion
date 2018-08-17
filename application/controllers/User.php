@@ -31,7 +31,7 @@ class User extends CI_Controller {
     public function show()
     {
         $this->load->model('user_model');
-        $alluser = $this->user_model->get_all_user(1,1,1);
+        $alluser = $this->user_model->get_all_user(1, 1, 1);
         $data = ['vara' => $alluser];
         $this->load->view('user_detail', $data);
     }
