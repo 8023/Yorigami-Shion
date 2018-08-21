@@ -4,7 +4,7 @@
 <html lang="zh-Hans">
 <head>
     <meta charset="utf-8">
-    <title>支出</title>
+    <title>detail info</title>
 
 </head>
 <body>
